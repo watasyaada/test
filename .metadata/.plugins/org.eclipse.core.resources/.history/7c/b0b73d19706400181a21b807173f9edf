@@ -1,6 +1,3 @@
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 
 public class CheckLoadJDBC {
 
@@ -8,7 +5,7 @@ public class CheckLoadJDBC {
 	InstantiationException,IllegalAccessException{
 		// TODO 自動生成されたメソッド・スタブ
 		String msg = "";
-
+		
 		try{
 		Class.forName("com.mysql.jdbc.Driver").newInstance();
 		msg = "ドライバのロードに成功しました";
@@ -16,8 +13,6 @@ public class CheckLoadJDBC {
 		msg = "ドライバのロードに失敗しました";
 		}
 		System.out.println(msg);
-
-
 
 	}
 
