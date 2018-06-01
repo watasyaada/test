@@ -86,8 +86,8 @@ PreparedStatement ps =con.prepareStatement(sql);
 ps.setString(1,password);
 ResultSet rs=ps.executeQuery();
 while(rs.next()){
-	System.out.println(rs.getString("user_name"));
-	System.out.println(rs.getString("password"));
+	System.out.println("user_name");
+	System.out.println("password");
 }
 }catch(SQLException e){
 	e.printStackTrace();
