@@ -8,23 +8,32 @@
 		<item value="625" key="dialogHeight"/>
 		<item value="1200" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
 			<item value="2"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.wst.jsdt.debug.ui.script.opensource"/>
+			<item value="org.eclipse.ui.window.showSystemMenu"/>
 			<item value="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textArray">
+			<item value="ソース"/>
+			<item value="メニュー"/>
 			<item value="データ"/>
 			<item value="データ・ソース"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.eclipse.datatools.sqltools.internal.sqlscrapbook.wizards.NewSQLScrapbookFileCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.datatools.sql"/>
+			<item value="org.eclipse.wst.web.ui"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
