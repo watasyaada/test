@@ -96,3 +96,12 @@
 0:0:0:0:0:0:0:1 - - [13/Jun/2018:16:25:59 +0900] "POST /WebProj2/TestAction.action HTTP/1.1" 200 206
 0:0:0:0:0:0:0:1 - - [13/Jun/2018:16:26:22 +0900] "POST /WebProj2/HelloStrutsAction.action HTTP/1.1" 200 192
 0:0:0:0:0:0:0:1 - - [13/Jun/2018:16:26:27 +0900] "POST /WebProj2/InquiryAction.action HTTP/1.1" 200 964
+127.0.0.1 - - [13/Jun/2018:17:24:30 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:17:24:33 +0900] "GET /WebProj2/ HTTP/1.1" 200 2406
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:17:24:42 +0900] "POST /WebProj2/HelloStrutsAction.action;jsessionid=923D9DABDFCC22A005FBB75EA87A2271 HTTP/1.1" 200 192
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:17:24:45 +0900] "POST /WebProj2/WelcomeAction.action;jsessionid=923D9DABDFCC22A005FBB75EA87A2271 HTTP/1.1" 200 841
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:17:24:50 +0900] "POST /WebProj2/LoginAction.action HTTP/1.1" 200 145
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:17:24:54 +0900] "POST /WebProj2/InquiryAction.action;jsessionid=923D9DABDFCC22A005FBB75EA87A2271 HTTP/1.1" 200 964
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:17:24:58 +0900] "POST /WebProj2/InquiryCompleteAction.action HTTP/1.1" 200 304
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:17:25:05 +0900] "GET /WebProj2/TestAction.action;jsessionid=923D9DABDFCC22A005FBB75EA87A2271?username=qqq&password=qqq HTTP/1.1" 200 202
+0:0:0:0:0:0:0:1 - - [13/Jun/2018:17:25:10 +0900] "POST /WebProj2/TestAction.action;jsessionid=923D9DABDFCC22A005FBB75EA87A2271 HTTP/1.1" 200 202
