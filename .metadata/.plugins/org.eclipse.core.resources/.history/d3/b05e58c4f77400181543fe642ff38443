@@ -1,0 +1,12 @@
+package com.internousdev.template.action;
+import java.sql.SQLException;
+import java.util.Map;
+import org.apache.struts2.interceptor.SessionAware;
+import com.opensymphony.xworak2.ActionSupport;
+import internousdev.template.dao.UserCreateCompleteDAO;
+
+public class UserCreateCompleteAction ActionSupport implements SessionAware{
+	{
+}
+
+}
