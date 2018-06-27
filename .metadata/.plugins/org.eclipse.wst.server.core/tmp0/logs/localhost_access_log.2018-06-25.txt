@@ -1,0 +1,7 @@
+127.0.0.1 - - [25/Jun/2018:10:07:42 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [25/Jun/2018:10:07:46 +0900] "GET /template/ HTTP/1.1" 200 2035
+0:0:0:0:0:0:0:1 - - [25/Jun/2018:10:07:51 +0900] "POST /template/HomeAction.action;jsessionid=6B712EAFC5640E204BB287191A9276F0 HTTP/1.1" 200 2775
+0:0:0:0:0:0:0:1 - - [25/Jun/2018:10:07:59 +0900] "POST /template/LoginAction.action HTTP/1.1" 200 3991
+0:0:0:0:0:0:0:1 - - [25/Jun/2018:10:08:03 +0900] "POST /template/BuyItemAction.action HTTP/1.1" 200 3252
+0:0:0:0:0:0:0:1 - - [25/Jun/2018:10:08:05 +0900] "POST /template/BuyItemConfirmAction.action HTTP/1.1" 200 2056
+0:0:0:0:0:0:0:1 - - [25/Jun/2018:10:08:09 +0900] "GET /template/MyPageAction.action HTTP/1.1" 200 3441
